@@ -69,7 +69,10 @@ Create an empty Node2D as root of the scene, we will work under it:
 
 .. image:: /img/tuto_cutout1.png
 
-OK, the first node of the model that we will create will be the hip.
+OK, the first node of the model that we will create will be the hip. You will need to add a sprite node under the 2d node you just created. (Just in case, you may want to click on the 2d node to be sure it's highlighted). Now add the sprite node and name it "Hip".
+
+Now that the node is renamed, we need to put the actual graphic into it. You do this using the inspector, which is the menu to the right. The first option you will see is Texture. click on the little down arrow and click on "Load". Navigate to the directory you placed your cutout files in and load the hip piece. Congratulations! You've placed your first sprite on the screen! Repeat this process for the rest of the pieces. 
+
 Generally, both in 2D and 3D, the hip is the root of the skeleton. This
 makes it easier to animate:
 
